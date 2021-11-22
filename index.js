@@ -8,9 +8,6 @@ const client = new discord.Client({
         discord.Intents.FLAGS.GUILD_PRESENCES
     ]
 });
-const guild = client.guilds.cache.get("688756207661613095");
-const channel = guild.channels.cache.get("688788915964084332");
-const user = guild.members.cache.get("658007339860885525");
 let date;
 let hour;
 let min;
@@ -19,7 +16,10 @@ let sec;
 client.login("OTEyMDYzMzc3OTE0ODU1NTE0.YZqfNg.N8b09dRCNDvbYzevaPJReU0N3JY");
 
 client.once("ready", () => {
-    console.log("Bot initialized");  
+    console.log("Bot initialized");
+    const guild = client.guilds.cache.get("688756207661613095");
+    const channel = guild.channels.cache.get("688788915964084332");
+    const user = guild.members.cache.get("658007339860885525");
     let interval = setInterval(() => {
         date = new Date();
         hour = date.getHours();

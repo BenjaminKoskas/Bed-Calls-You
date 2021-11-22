@@ -2,5 +2,24 @@
   "dependencies": {
     "cron": "^1.8.2",
     "discord.js": "^13.3.1"
-  }
+  },
+  "name": "bed-calls-you",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminKoskas/Bed-Calls-You.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminKoskas/Bed-Calls-You/issues"
+  },
+  "homepage": "https://github.com/BenjaminKoskas/Bed-Calls-You#readme",
+  "description": ""
 }
