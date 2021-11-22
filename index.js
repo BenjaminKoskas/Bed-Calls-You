@@ -16,7 +16,7 @@ let hour;
 let min;
 let sec;
 
-client.login("OTEyMDYzMzc3OTE0ODU1NTE0.YZqfNg.pfSOY5A2vh_ZynQtvU0HyyW7Gg8");
+client.login("OTEyMDYzMzc3OTE0ODU1NTE0.YZqfNg.N8b09dRCNDvbYzevaPJReU0N3JY");
 
 client.once("ready", () => {
     console.log("Bot initialized");  
