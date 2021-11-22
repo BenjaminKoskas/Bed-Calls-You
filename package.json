@@ -1,23 +1,15 @@
 {
-  "dependencies": {
-    "discord.js": "^13.3.1"
-  },
   "name": "bed-calls-you",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BenjaminKoskas/Bed-Calls-You.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BenjaminKoskas/Bed-Calls-You/issues"
-  },
-  "homepage": "https://github.com/BenjaminKoskas/Bed-Calls-You#readme",
-  "description": ""
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
 }
