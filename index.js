@@ -16,7 +16,7 @@ let sec;
 client.login("OTEyMDYzMzc3OTE0ODU1NTE0.YZqfNg.N8b09dRCNDvbYzevaPJReU0N3JY");
 
 client.once("ready", () => {
-    console.log("Bot initialized");
+    console.log("Botaaa initialized");
     const guild = client.guilds.cache.get("688756207661613095");
     const channel = guild.channels.cache.get("688788915964084332");
     const user = guild.members.cache.get("658007339860885525");
